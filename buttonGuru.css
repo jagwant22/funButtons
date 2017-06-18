@@ -1,0 +1,96 @@
+﻿
+
+button{
+        
+    font-family:"buttonFont";
+    padding:0.5%;
+    
+    box-shadow:none;
+    border-radius:0px;
+    border:0px;
+    background:none;
+    border-radius: 10px;
+    box-sizing: border-box;
+    font-family:Pangolin;
+
+}
+button:hover{
+    cursor:pointer;
+    
+    opacity:0.9;
+    
+    
+}
+.btn-success{
+    font-family:Pangolin;
+    background:white;
+    color:#38ab38;
+    border: 1px solid #38ab38;
+    
+}
+
+.btn-success:hover{
+    font-family:Pangolin;
+    color:white;
+    background:#38ab38;
+    border: 1px solid #38ab38;
+    
+}
+
+
+.btn-primary{
+    color:rgba(57, 142, 202, 0.97);
+    background:white;
+    border:0.2px solid rgba(57, 142, 202, 0.97); 
+    
+}
+
+.btn-primary:hover{
+    color:white;
+    background:rgba(57, 142, 202, 0.97);
+    border:0.2px solid rgba(57, 142, 202, 0.97); 
+    
+}
+
+.btn-warning{
+    background:white;
+    color:#afa52f;
+    border:1px solid #efdf13;
+}
+.btn-warning:hover{
+    background:#afa52f;
+    color:white;
+    box-shadow:0px 0px 1px 1px #afa52f inset;
+}
+
+.btn-danger{
+    font-family:Pangolin;
+    color:#d44e46;
+    background:white;
+    border:1px solid #d44e46;
+}
+
+.btn-danger:hover{
+    background:#d44e46;
+    color:white;
+    box-shadow:0px 0px 1px 1px #d44e46 inset;
+}
+
+.btn-dark{
+    font-family:Pangolin;
+    background:black;
+    color:white;
+    border: 1px solid white;
+    
+}
+.btn-dark:hover{
+    
+    background:white;
+    color:black;
+    border: 1px solid black;
+    
+}
+
+button::selection{
+    border:initial;
+}
